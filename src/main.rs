@@ -20,14 +20,12 @@ const CELLIYE_SERVER_ADDRESS:&str = "127.0.0.1:8002";
 async fn main() {
 
     let listener = TcpListener::bind(ULAK_IP_ADDRESS).await.unwrap();
-    let message = message::new("message".to_string(), 232, "sefa".to_string());
-    println!("{:?}",message);
+
     loop {
             let (stream,adr) = listener.accept().await.unwrap();
 
             tokio::spawn(async move {
-                println!("{:?}",adr.ip());
-                println!("{:?}",adr.port());
+               
                 connection::handle_connection(stream).await
             });
     }
