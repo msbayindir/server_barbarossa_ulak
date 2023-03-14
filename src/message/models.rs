@@ -1,4 +1,4 @@
-
+#[warn(dead_code,unused)]
 use serde_derive::{Serialize, Deserialize};
 
 
@@ -8,8 +8,6 @@ pub struct Message{
     pub to:i32,
     pub message:String
 }
-
-
 impl Message{
 
     pub fn new(message:String,owner:String,to:i32)->Self{
