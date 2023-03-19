@@ -1,4 +1,4 @@
-use std::str::FromStr;
+
 
 use tokio::{net::TcpStream, io::{AsyncReadExt, AsyncWriteExt}};
 
@@ -13,12 +13,17 @@ pub async fn handle_connection(mut stream:TcpStream){
     let message =String::from_utf8_lossy(&buffer[..len]);
 
     let mess:Message = serde_json::from_slice(&message.to_string().as_bytes()).unwrap();
-    println!("{:?}",mess);
-    if mess.to == 124{
-        call_celliye(mess).await;
-    }else if mess.to==123{
-        call_maven(mess).await;
+    match mess {
+        mess if mess.to==124=>call_celliye(mess).await,
+        mess if mess.to==123=>call_maven(mess).await,
+        _ =>println!("Böyle Bir Clinent yok")
     }
+    // println!("{:?}",mess);
+    // if mess.to == 124{
+    //     call_celliye(mess).await;
+    // }else if mess.to==123{
+    //     call_maven(mess).await;
+    // }
 
 }
 pub async fn call_celliye(mess:Message){
@@ -31,7 +36,7 @@ pub async fn call_celliye(mess:Message){
 
     } else {
         println!(
-            "couldn't connect to barbarossa: {}",
+            "couldn't connect to celliye: {}",
 
             CELLIYE_SERVER_ADDRESS
         );
@@ -48,7 +53,7 @@ pub async fn call_maven(mess:Message){
 
     } else {
         println!(
-            "couldn't connect to barbarossa: {}",
+            "couldn't connect to celliye: {}",
 
             CELLIYE_SERVER_ADDRESS
         );
