@@ -12,7 +12,10 @@ pub async fn handle_connection(mut stream:TcpStream){
 
     let message =String::from_utf8_lossy(&buffer[..len]);
 
-    let mess:Message = serde_json::from_slice(&message.to_string().as_bytes()).unwrap();
+    let mess:Message = serde_json::from_slice(&message.to_string().as_bytes())
+    .unwrap_or(Message { owner: "hata".to_string(), to: 0, message: "hata".to_string()
+ });
+
     match mess {
         mess if mess.to==124=>call_celliye(mess).await,
         mess if mess.to==123=>call_maven(mess).await,
