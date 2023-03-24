@@ -1,0 +1,12 @@
+/Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/target/debug/deps/log-940b0ae321f58526.rmeta: /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/lib.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/macros.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/serde.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/mod.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/error.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/key.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/source.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/value.rs
+
+/Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/target/debug/deps/log-940b0ae321f58526.d: /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/lib.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/macros.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/serde.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/mod.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/error.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/key.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/source.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/value.rs
+
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/lib.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/macros.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/serde.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/mod.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/error.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/key.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/source.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/kv/value.rs:
