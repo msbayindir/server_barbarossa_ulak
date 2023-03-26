@@ -14,7 +14,7 @@ pub async fn on_connection(){
             
             println!("Bağlanma Başarili");
             task::spawn(async move {
-                
+
                 handle_connection(stream).await;
             });
             
@@ -32,7 +32,7 @@ pub async fn handle_connection(mut stream:TcpStream){
             println!("Herhangi bir okuma yapilmadi");
             println!("Ne soylemek istersiniz");
             let mut str = String::new();
-            let bytes = stdin().read_line(&mut str).await.unwrap();
+            let bytes = stdin().read_line(&mut str).await;
             stream.write(str.as_bytes()).await;
         }
         Ok(n)=>{
