@@ -503,6 +503,9 @@ dependencies = [
 [[package]]
 name = "ulak_server"
 version = "0.1.0"
+dependencies = [
+ "async-std",
+]
 
 [[package]]
 name = "unicode-ident"
