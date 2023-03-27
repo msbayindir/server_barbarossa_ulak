@@ -1,2 +1,2 @@
 pub mod conn_models;
-mod bar_stdin;
+pub mod bar_stdin;
