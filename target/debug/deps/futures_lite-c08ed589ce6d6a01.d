@@ -1,0 +1,9 @@
+/Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/target/debug/deps/futures_lite-c08ed589ce6d6a01.rmeta: /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/lib.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/future.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/prelude.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/stream.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/io.rs
+
+/Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/target/debug/deps/futures_lite-c08ed589ce6d6a01.d: /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/lib.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/future.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/prelude.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/stream.rs /Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/io.rs
+
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/lib.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/future.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/prelude.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/stream.rs:
+/Users/muhammedbayindir/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-lite-1.12.0/src/io.rs:

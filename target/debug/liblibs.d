@@ -1,0 +1,1 @@
+/Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/target/debug/liblibs.rlib: /Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/libs/src/conn_models/mod.rs /Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/libs/src/conn_models/models.rs /Users/muhammedbayindir/Desktop/term_massage/server_barbarossa_ulak/libs/src/lib.rs
