@@ -1,0 +1,7 @@
+[workspace]
+members=[
+    "ulak_server",
+    "client_mavna",
+    "libs",
+    "client_celliye"
+]
